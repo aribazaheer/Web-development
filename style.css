@@ -1,0 +1,72 @@
+body {
+  background-color: skyblue;
+  font-family: Arial;
+}
+
+/* Container */
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+              rgba(0, 0, 0, 0.12) 0px -12px 30px,
+              rgba(0, 0, 0, 0.12) 0px 4px 6px,
+              rgba(0, 0, 0, 0.17) 0px 12px 13px,
+              rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* spacing between fields */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* FLEXBOX (IMPORTANT FIX) */
+.name-row {
+  display: flex;
+  gap: 10px;
+}
+
+.name-row input {
+  flex: 1;
+}
+
+/* inputs */
+input, select {
+  width: 100%;
+  padding: 10px; /* padding inside inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* inline radio/checkbox */
+.inline {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
